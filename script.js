@@ -1,25 +1,91 @@
-let money, income, addExpenses, deposit, mission, period, budgetDay;
+// let expenses1 = prompt('Введите обязательную статью расходов?');
 
-money=350;
-income='stock exchange';
-addExpenses='auto, internet, restaurants';
-deposite=true;
-mission=1000;
-period=6;
-budgetDay=33000
+// let amount1 = +prompt('Во сколько это обойдется?');
 
-console.log (typeof money);
-console.log (typeof income);
-console.log (typeof deposite);
+// let expenses2 = prompt('Введите обязательную статью расходов?');
 
-console.log (addExpenses.length);
+// let amount2 = +prompt('Во сколько это обойдется?');
 
-console.log('Период равен', period, 'месяцам');
+// let budgetMonth = amount1 + amount2;
 
-console.log('Цель заработать', mission, 'рублей');
+// console.log('Бюджет на месяц:', budgetMonth,);
 
-console.log(addExpenses.toLowerCase(addExpenses));
 
-console.log(addExpenses.split(', '));
 
-console.log(budgetDay/30);
+
+
+// let money = prompt('Ваш месячный доход?');
+// console.log(typeof + 'money');
+
+// let income='stock exchange';
+// console.log (typeof income);
+
+// let deposite = !!prompt('Есть ли у вас депозит в банке?');
+// console.log(typeof deposite);
+
+// let addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую');
+// console.log(addExpenses.length);
+// console.log(addExpenses.toLowerCase(addExpenses));
+// console.log(addExpenses.split(', '));
+
+
+// let mission=150000;
+// console.log('Цель заработать', mission, 'рублей');
+// console.log('Потребуется месяцев:', Math.ceil(mission / budgetMonth),);
+
+// let period=6;
+// console.log('Период равен', period, 'месяцам');
+
+// let budgetDay = budgetMonth/30
+// console.log('Бюджет на день:', Math.floor(budgetDay),);
+
+// if (budgetDay > 1200 || budgetDay == 1200) {
+//     console.log('У вас высокий уровень дохода');
+// }
+// if (budgetDay > 600 && budgetDay < 1200 || budgetDay == 600) {
+//     console.log('У вас средний уровень дохода');
+// }
+// if (budgetDay < 600 && budgetDay > 0) {
+//     console.log('К сожалению у вас уровень дохода ниже среднего');
+// }
+// if (budgetDay < 0 || budgetDay == 0){
+//     console.log('Что то пошло не так');
+// }
+
+
+// ДОП ЗАДАНИЕ
+// let lang = 'ru'
+
+// switch (lang){
+//     case 'ru':
+//         console.log('пон,вт,ср,чт,пт,сб,вск');
+//         break;
+//     case 'en':
+//         console.log('Mon,tu,We,thu,fri,sat,sun');
+//         break;
+//     default:
+//         console.log('не верно');
+// }
+
+
+// let ru = ['пон','вт','ср','чт','пт','сб','вск'];
+// let en = ['Mon','tu','We','thu','fri','sat','sun'];
+// console.log(en);
+
+// let namePerson = 'Паша';
+// let result = namePerson === 'Артем' ? 'директор' : namePerson === 'Максим' ? 'преподователь' : 'студент';
+// console.log(result);
+
+
+for (let num = 266219; num < 6; num++){
+    console.log(num.split (','));
+}
+
+
+
+
+
+
+
+
+
