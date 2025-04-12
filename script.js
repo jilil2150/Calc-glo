@@ -77,13 +77,13 @@
 // console.log(result);
 
 
-for (let num = 266219; num < 6; num++){
-    console.log(num.split (','));
+
+// Функции
+
+function outputMessage () {
+    console.log('Hello World');
 }
-
-
-
-
+outputMessage();
 
 
 
